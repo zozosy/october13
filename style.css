@@ -1,0 +1,64 @@
+/* Reset some default styles and set a common font */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set a background color and add padding to the body */
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style sections and their headings */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style grid elements */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Add more CSS rules as needed to customize your design */
